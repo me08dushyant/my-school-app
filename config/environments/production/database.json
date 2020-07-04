@@ -5,7 +5,8 @@
       "connector": "mongoose",
       "settings": {
         "client": "mongo",
-        "url": "mongodb+srv://dksingh:<password>@cluster0-qpv6r.mongodb.net/<dbname>?retryWrites=true&w=majority",
+        "url": "mongodb://dksingh:<password>@cluster0-shard-00-00-qpv6r.mongodb.net:27017,cluster0-shard-00-01-qpv6r.mongodb.net:27017,cluster0-shard-00-02-qpv6r.mongodb.net:27017/<dbname>?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority",
+		
 
       },
       "options": {
