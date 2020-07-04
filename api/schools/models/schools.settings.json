@@ -17,6 +17,9 @@
     },
     "Email": {
       "type": "email"
+    },
+    "Date": {
+      "type": "date"
     }
   }
 }
